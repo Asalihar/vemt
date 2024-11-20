@@ -25,7 +25,7 @@ header {
 }
 
 .logo img {
-    height: 75px; /* Set logo height */
+    height: 100px; /* Set logo height */
     width: auto; /* Maintain aspect ratio */
     max-width: 100%; /* Prevent oversized logos */
     margin-right: 10px; /* Space between the logo and other elements */
