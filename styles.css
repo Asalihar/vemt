@@ -1,49 +1,65 @@
+/* General body styling */
 body {
- font-family: Arial, sans-serif;
- margin: 0;
- padding: 0;
-        }
-header {
- background-color: #f4f4f4;
- padding: 20px;
- text-align: center;
- position: sticky;
- top: 0;
- z-index: 1000;
- box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        }
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo img {
-    height: 50px; /* Set a specific height */
-    width: auto; /* Keep the aspect ratio */
-    max-width: 100%; /* Ensure it doesn't overflow the container */
-    margin-right: 10px; /* Space between logo and text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-nav {
- margin-top: 10px;
+/* Header styling */
+header {
+    display: flex; /* Align logo and navigation in a row */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Logo on the left, nav in the center/right */
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center; /* Vertically align logo and text */
+}
+
+.logo img {
+    height: 50px; /* Set logo height */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent oversized logos */
+    margin-right: 10px; /* Space between the logo and other elements */
+}
+
+/* Navigation styling */
+nav {
+    flex: 1; /* Allow it to take up space for centering */
+    text-align: center; /* Center-align the navigation links */
+}
+
 nav a {
- text-decoration: none;
- color: #333;
- margin: 0 15px;
- font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray color for links */
+    margin: 0 15px; /* Space between links */
+    font-weight: bold; /* Bold text */
 }
 
 nav a:hover {
- text-decoration: underline;
-        }
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Section styling */
 section {
- padding: 50px;
- text-align: center;
+    padding: 50px;
+    text-align: center;
 }
+
+/* Specific sections with unique styles */
 .SĀKUMS {
- background-color: #007BFF;
- color: white;
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
 }
+
 .KAS IR VEMT? {
- background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light gray background */
 }
